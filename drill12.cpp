@@ -78,6 +78,10 @@ int main() {
 		
 		win.set_label("Color");
 		win.wait_for_button();
+		
+		Image ii {Point{100, 100}, "badge.jpg"};
+		win.attach(ii);
+		win.wait_for_button();
 	
 	} catch(exception& e) {
 		cerr << "exception " << e.what() << endl;
