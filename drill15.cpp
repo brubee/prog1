@@ -88,7 +88,7 @@ int main() {
 		vec.push_back(p);
 	}
 
-	for(Person p: vec){ // ez egy for each ciklus, btw
+	for(Person p: vec){
 		cout << p << endl;
 	}
 
