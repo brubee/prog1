@@ -6,8 +6,8 @@ using namespace std;
 
 class Person {
 public:
-	Person(){}; // ez azért kell, hogy Person p is műkodjön
-	//Person(string n, int a) : n{n}, a{a}{ // ez pedig összefűzéshez kell
+	Person(){};
+	//Person(string n, int a) : n{n}, a{a}{ 
 	Person(string f, string l, int a) : f{f}, l{l}, a{a}{
 		if (a < 0 || a >= 150){
 			throw runtime_error("Invalid age");
@@ -47,8 +47,6 @@ private:
 	string l;
 	int a;
 };
-
-// ezt a kettőt a Person osztályba is lehet írni, de így mindenképpen szebb
 
 ostream& operator<< (ostream& os, const Person& p) {
 	return os << p.first_name() << " " << p.last_name() << " " << p.age();
