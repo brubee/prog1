@@ -82,7 +82,7 @@ try {
 		cout << endl;
 	}
 	
-	/*Matrix<complex<double>> mcomp(10);
+	Matrix<complex<double>> mcomp(10);
 	cout << "\nEnter 10 complex numbers (Re, Im): ";
 	complex<double> comp;
 	for(int i = 0; i < 10; ++i){
@@ -94,7 +94,7 @@ try {
 	for(Index i = 0; i < mcomp.size(); ++i){
 		sum += mcomp[i];
 	}
-	cout << "sum: " << sum << endl;*/
+	cout << "sum: " << sum << endl;
 	
 	Matrix<int, 2> m4(2, 3);
 	cout << "Enter 6 ints: ";
