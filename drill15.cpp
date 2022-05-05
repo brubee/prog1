@@ -13,7 +13,7 @@ public:
 			throw runtime_error("Invalid age");
 		}
 
-		string n = f + n;
+		string n = f + l;
 
 		for (char c : n)
 			switch(c) {
